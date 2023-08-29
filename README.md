@@ -4,5 +4,4 @@
 ## List Pemograman Mobile 
 |No|judul|
 |--|-----|
-
-|week_1| membuat Hello World menggunakan dart|
+|week_1|membuat Hello World menggunakan dart|
