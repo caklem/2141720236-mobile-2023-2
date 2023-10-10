@@ -120,5 +120,5 @@ Menghasilkan output seperti dibawah ini
 
 ![Screenshot](docs/tugas/5.PNG)
 
-![Screenshot](docs/tugas/6.PNG)
+
 ![Alt text](docs/tugas/hp/6.gif)
