@@ -18,6 +18,8 @@ Nim : 2141720236
 
 ![Screenshot](docs/pratikum2/3.PNG)
 
+![Screenshot](docs/pratikum2/hp/1.jpeg)
+
 ## Praktikum 3: Menerapkan Widget Dasar
 
 **Langkah 1: Text Widget**
@@ -37,6 +39,8 @@ Lakukan penyesuaian asset pada file pubspec.yaml dan tambahkan file logo Anda di
 Jangan lupa sesuaikan kode dan import di file main.dart kemudian akan tampil gambar seperti berikut.
 
 ![Screenshot](docs/pratikum3/2.PNG)
+
+![Screenshot](docs/pratikum3/hp/1.jpeg)
 
 ## Praktikum 4: Menerapkan Widget Material Design dan iOS Cupertino
 
@@ -60,6 +64,8 @@ Ubah isi kode main.dart seperti berikut.
 
 ![Screenshot](docs/pratikum4/1.PNG)
 
+![Screenshot](docs/pratikum4/hp/1.jpeg)
+
 ## **Langkah 4: Dialog Widget**
 
 Dialog widget pada flutter memiliki dua jenis dialog yaitu AlertDialog dan SimpleDialog.
@@ -67,6 +73,7 @@ Dialog widget pada flutter memiliki dua jenis dialog yaitu AlertDialog dan Simpl
 Ubah isi kode main.dart seperti berikut.
 
 ![Screenshot](docs/pratikum4/2.PNG)
+![Screenshot](docs/pratikum4/hp/3.jpeg)
 
 ## **Langkah 5: Input dan Selection Widget**
 
@@ -75,12 +82,14 @@ Flutter menyediakan widget yang dapat menerima input dari pengguna aplikasi yait
 Contoh penggunaan TextField widget adalah sebagai berikut:
 
 ![Screenshot](docs/pratikum4/3.PNG)
+![Screenshot](docs/pratikum4/hp/4.jpeg)
 
 ## **Langkah 6: Date and Time Pickers**
 
 Date and Time Pickers termasuk pada kategori input dan selection widget, berikut adalah contoh penggunaan Date and Time Pickers.
 
 ![Screenshot](docs/pratikum4/4.PNG)
+![Screenshot](docs/pratikum4/hp/5.jpeg)
 
 ## 10. Tugas Praktikum
 
@@ -112,3 +121,4 @@ Menghasilkan output seperti dibawah ini
 ![Screenshot](docs/tugas/5.PNG)
 
 ![Screenshot](docs/tugas/6.PNG)
+![Alt text](docs/tugas/hp/6.gif)
