@@ -10,51 +10,54 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Febryan Rizki Hidayatullah | 2141720059',
+      title: 'Mohammad Halim Perdana | 2141720236',
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Febryan Rizki Hidayatullah | 2141720059'),
+          title: Text('Mohammad Halim Perdana | 2141720236'),
         ),
         body: ListView(children: [
           MyWidget(),
         ]),
       ),
-    );
+    );  
   }
 }
 
 // Row AND Column Class
-class MyWidget extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Column(
-      children: [
-        BlueBox(),
-        BlueBox(),
-        BlueBox(),
-      ],
-    );
-  }
-}
+// class MyWidget extends StatelessWidget {
+//   @override
+//   Widget build(BuildContext context) {
+//     return Column(
+//       children: [
+//         BlueBox(),
+//         BlueBox(),
+//         BlueBox(),
+      
+//     ],
 
-class BlueBox extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      width: 50,
-      height: 50,
-      decoration: BoxDecoration(
-        color: Colors.blue,
-        border: Border.all(),
-      ),
-    );
-  }
-}
+//     );
+//   }
+// }
+
+// class BlueBox extends StatelessWidget {
+//   @override
+//   Widget build(BuildContext context) {
+//     return Container(
+//       width: 50,
+//       height: 50,
+//       decoration: BoxDecoration(
+//         color: Colors.blue,
+//         border: Border.all(),
+//       ),
+//     );
+//   }
+// }
 
 // Main Axis Size
 // class MyWidget extends StatelessWidget {
 //   @override
 //   Widget build(BuildContext context) {
+      
 //     return Row(
 //       mainAxisSize: MainAxisSize.min,
 //       children: [
@@ -385,48 +388,48 @@ class BlueBox extends StatelessWidget {
 // }
 
 //part 2
-// class MyWidget extends StatelessWidget {
-//   @override
-//   Widget build(BuildContext context) {
-//     return Column(
-//       mainAxisSize: MainAxisSize.min,
-//       crossAxisAlignment: CrossAxisAlignment.stretch,
-//       children: [
-//         Row(
-//           children: [
-//             const Padding(
-//               padding: EdgeInsets.all(8.0),
-//               child: Icon(Icons.account_circle, size: 50),
-//             ),
-//             Column(
-//               crossAxisAlignment: CrossAxisAlignment.start,
-//               mainAxisSize: MainAxisSize.min,
-//               children: [
-//                 Text(
-//                   'Flutter McFlutter',
-//                   style: Theme.of(context).textTheme.headlineSmall,
-//                 ),
-//                 const Text('Experienced App Developer'),
-//               ],
-//             ),
-//           ],
-//         ),
-//         const SizedBox(height: 8),
-//         Row(
-//           mainAxisAlignment: MainAxisAlignment.spaceBetween,
-//           children: const [Text("123 Main Street"), Text("(415) 555-0198")],
-//         ),
-//         const SizedBox(height: 16),
-//         Row(
-//           mainAxisAlignment: MainAxisAlignment.spaceAround,
-//           children: const [
-//             Icon(Icons.accessibility),
-//             Icon(Icons.timer),
-//             Icon(Icons.phone_android),
-//             Icon(Icons.phone_iphone)
-//           ],
-//         ),
-//       ],
-//     );
-//   }
-// }
+class MyWidget extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      mainAxisSize: MainAxisSize.min,
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        Row(
+          children: [
+            const Padding(
+              padding: EdgeInsets.all(8.0),
+              child: Icon(Icons.account_circle, size: 50),
+            ),
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Text(
+                  'Flutter McFlutter',
+                  style: Theme.of(context).textTheme.headlineSmall,
+                ),
+                const Text('Experienced App Developer'),
+              ],
+            ),
+          ],
+        ),
+        const SizedBox(height: 8),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: const [Text("123 Main Street"), Text("(415) 555-0198")],
+        ),
+        const SizedBox(height: 16),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          children: const [
+            Icon(Icons.accessibility),
+            Icon(Icons.timer),
+            Icon(Icons.phone_android),
+            Icon(Icons.phone_iphone)
+          ],
+        ),
+      ],
+    );
+  }
+}

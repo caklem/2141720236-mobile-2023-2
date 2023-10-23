@@ -89,3 +89,33 @@ Dengan memberi nilai softWrap = true, baris teks akan memenuhi lebar kolom sebel
 Tambahkan widget variabel textSection ke dalam body seperti berikut:
 
 ![all text](/docs/pratikum3/2.PNG)
+
+## Tugas 
+### Row 
+![all text](/docs/tugas/row.PNG)
+### Column
+![all text](/docs/tugas/column.PNG)
+### axis zize
+![all text](/docs/tugas/axisZize.PNG)
+### Main Axis Zize
+![all text](/docs/tugas/axisAligment.PNG)
+### Cross Axis Aligment
+![all text](/docs/tugas/crosAxisAligment.PNG)
+### Flexibel Widget 
+![all text](/docs/tugas/fexibleWidget.PNG)
+### Expanded Widget 
+![Alt text](expandedWidget.PNG)
+### Sized Box Widget
+![Alt text](<sizedBox Widget.PNG>)
+### Spacer Widget
+![Alt text](spacerWidget.PNG)
+### Text Widget 
+![Alt text](textWidget.PNG)
+### Icon Widget
+![Alt text](iconWidget.PNG)
+### Image Widget
+![Alt text](iconWidget2.PNG)
+### part 1
+![Alt text](part1.PNG)
+### part 2
+![Alt text](part2.PNG)
