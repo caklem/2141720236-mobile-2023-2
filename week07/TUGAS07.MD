@@ -119,3 +119,4 @@ Tambahkan widget variabel textSection ke dalam body seperti berikut:
 ![Alt text](part1.PNG)
 ### part 2
 ![Alt text](part2.PNG)
+![Alt text](part2.PNG)
