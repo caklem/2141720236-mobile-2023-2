@@ -158,13 +158,13 @@
       "languageVersion": "3.1"
     },
     {
-      "name": "halim_app",
+      "name": "namer_app",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     }
   ],
-  "generated": "2023-10-09T05:44:36.489339Z",
+  "generated": "2023-11-05T13:51:52.191385Z",
   "generator": "pub",
   "generatorVersion": "3.1.3"
 }

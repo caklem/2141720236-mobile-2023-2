@@ -1,4 +1,0 @@
-#Mon Oct 09 12:46:45 WIB 2023
-base.0=D\:\\Akuliah polinema\\semester 5\\pemrog mobile\\2141720236-mobile-2023\\WEEK05\\Halim_app\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
