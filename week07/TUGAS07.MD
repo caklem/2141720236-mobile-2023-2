@@ -10,7 +10,7 @@ Langkah 2: Buka file **lib/main.dart**
 
 Buka file main.dart lalu ganti dengan kode berikut. Isi nama dan NIM Anda di text title.
 
-![all text](/docs/pratikum1/1.PNG)
+![Alt text](/docs/pratikum1/1.PNG)
 
 ## **Langkah 3: Identifikasi layout diagram**
 
