@@ -1,5 +1,5 @@
 # halim_app
-![Alt text](assets/halim_app/1.png)
+![Alt text](assets/halim_app/1.PNG)
 
 ![Alt text](assets/halim_app/2.png)
 
