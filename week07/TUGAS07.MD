@@ -4,9 +4,9 @@ Kelas : 3F
 
 **Langkah 1: Buat Project Baru**
 
-Buatlah sebuah project flutter baru dengan nama  **layout\_flutter**. Atau sesuaikan style laporan praktikum yang Anda buat.
+Buatlah sebuah project flutter baru dengan nama **layout_flutter**. Atau sesuaikan style laporan praktikum yang Anda buat.
 
-Langkah 2: Buka file  **lib/main.dart**
+Langkah 2: Buka file **lib/main.dart**
 
 Buka file main.dart lalu ganti dengan kode berikut. Isi nama dan NIM Anda di text title.
 
@@ -30,13 +30,13 @@ Pertama, Anda akan membuat kolom bagian kiri pada judul. Tambahkan kode berikut 
 
 ![all text](/docs/pratikum1/2.PNG)
 
-**/\* soal 1 \*/**  Letakkan widget Column di dalam widget Expanded agar menyesuaikan ruang yang tersisa di dalam widget Row. Tambahkan properti crossAxisAlignment ke CrossAxisAlignment.start sehingga posisi kolom berada di awal baris.
+**/\* soal 1 \*/** Letakkan widget Column di dalam widget Expanded agar menyesuaikan ruang yang tersisa di dalam widget Row. Tambahkan properti crossAxisAlignment ke CrossAxisAlignment.start sehingga posisi kolom berada di awal baris.
 
-**/\* soal 2 \*/**  Letakkan baris pertama teks di dalam Container sehingga memungkinkan Anda untuk menambahkan padding = 8. Teks 'Batu, Malang, Indonesia' di dalam Column, set warna menjadi abu-abu.
+**/\* soal 2 \*/** Letakkan baris pertama teks di dalam Container sehingga memungkinkan Anda untuk menambahkan padding = 8. Teks 'Batu, Malang, Indonesia' di dalam Column, set warna menjadi abu-abu.
 
 ![all text](/docs/pratikum1/3.jpeg)
 
-**/\* soal 3 \*/**  Dua item terakhir di baris judul adalah ikon bintang, set dengan warna merah, dan teks "41". Seluruh baris ada di dalam Container dan beri padding di sepanjang setiap tepinya sebesar 32 piksel. Kemudian ganti isi body text 'Hello World' dengan variabel titleSection seperti berikut:
+**/\* soal 3 \*/** Dua item terakhir di baris judul adalah ikon bintang, set dengan warna merah, dan teks "41". Seluruh baris ada di dalam Container dan beri padding di sepanjang setiap tepinya sebesar 32 piksel. Kemudian ganti isi body text 'Hello World' dengan variabel titleSection seperti berikut:
 
 ![all text](/docs/pratikum1/4.jpeg)
 
@@ -55,6 +55,8 @@ Karena kode untuk membangun setiap kolom hampir sama, buatlah metode pembantu pr
 **lib/main.dart (\_buildButtonColumn)**
 
 ![all text](/docs/pratikum2/1.PNG)
+
+![Screenshot langkah 1](docs/pratikum2/1.png)
 
 ## **Langkah 2: Buat widget buttonSection**
 
@@ -90,33 +92,61 @@ Tambahkan widget variabel textSection ke dalam body seperti berikut:
 
 ![all text](/docs/pratikum3/2.PNG)
 
-## Tugas 
-### Row 
+## Tugas
+
+### Row
+
 ![all text](/docs/tugas/row.PNG)
+
 ### Column
+
 ![all text](/docs/tugas/column.PNG)
+
 ### axis zize
+
 ![all text](/docs/tugas/axisZize.PNG)
+
 ### Main Axis Zize
+
 ![all text](/docs/tugas/axisAligment.PNG)
+
 ### Cross Axis Aligment
+
 ![all text](/docs/tugas/crosAxisAligment.PNG)
-### Flexibel Widget 
+
+### Flexibel Widget
+
 ![all text](/docs/tugas/fexibleWidget.PNG)
-### Expanded Widget 
+
+### Expanded Widget
+
 ![Alt text](expandedWidget.PNG)
+
 ### Sized Box Widget
+
 ![Alt text](<sizedBox Widget.PNG>)
+
 ### Spacer Widget
+
 ![Alt text](spacerWidget.PNG)
-### Text Widget 
+
+### Text Widget
+
 ![Alt text](textWidget.PNG)
+
 ### Icon Widget
+
 ![Alt text](iconWidget.PNG)
+
 ### Image Widget
+
 ![Alt text](iconWidget2.PNG)
+
 ### part 1
+
 ![Alt text](part1.PNG)
+
 ### part 2
+
 ![Alt text](part2.PNG)
 ![Alt text](part2.PNG)
