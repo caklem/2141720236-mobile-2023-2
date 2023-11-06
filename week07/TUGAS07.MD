@@ -34,11 +34,11 @@ Pertama, Anda akan membuat kolom bagian kiri pada judul. Tambahkan kode berikut 
 
 **/\* soal 2 \*/** Letakkan baris pertama teks di dalam Container sehingga memungkinkan Anda untuk menambahkan padding = 8. Teks 'Batu, Malang, Indonesia' di dalam Column, set warna menjadi abu-abu.
 
-![all text](/docs/pratikum1/3.jpeg)
+![all text](docs/pratikum1/3.jpeg)
 
 **/\* soal 3 \*/** Dua item terakhir di baris judul adalah ikon bintang, set dengan warna merah, dan teks "41". Seluruh baris ada di dalam Container dan beri padding di sepanjang setiap tepinya sebesar 32 piksel. Kemudian ganti isi body text 'Hello World' dengan variabel titleSection seperti berikut:
 
-![all text](/docs/pratikum1/4.jpeg)
+![all text](docs/pratikum1/4.jpeg)
 
 ##
 
@@ -54,7 +54,7 @@ Karena kode untuk membangun setiap kolom hampir sama, buatlah metode pembantu pr
 
 **lib/main.dart (\_buildButtonColumn)**
 
-![all text](/docs/pratikum2/1.PNG)
+![all text](docs/pratikum2/1.PNG)
 
 ![Screenshot langkah 1](docs/pratikum2/1.png)
 
@@ -66,13 +66,13 @@ Bangun baris yang berisi kolom-kolom ini dengan memanggil fungsi dan set warna, 
 
 **lib/main.dart (buttonSection)**
 
-![all text](/docs/pratikum2/2.PNG)
+![all text](docs/pratikum2/2.PNG)
 
 ## **Langkah 3: Tambah button section ke body**
 
 Tambahkan variabel buttonSection ke dalam body seperti berikut:
 
-![all text](/docs/pratikum2/3.PNG)
+![all text](docs/pratikum2/3.PNG)
 
 ## 5. Praktikum 3: Implementasi text section
 
@@ -82,7 +82,7 @@ Selesaikan langkah-langkah praktikum berikut ini dengan melanjutkan dari praktik
 
 Tentukan bagian teks sebagai variabel. Masukkan teks ke dalam Container dan tambahkan padding di sepanjang setiap tepinya. Tambahkan kode berikut tepat di bawah deklarasi buttonSection:
 
-![all text](/docs/pratikum3/1.PNG)
+![all text](docs/pratikum3/1.PNG)
 
 Dengan memberi nilai softWrap = true, baris teks akan memenuhi lebar kolom sebelum membungkusnya pada batas kata.
 
@@ -90,33 +90,33 @@ Dengan memberi nilai softWrap = true, baris teks akan memenuhi lebar kolom sebel
 
 Tambahkan widget variabel textSection ke dalam body seperti berikut:
 
-![all text](/docs/pratikum3/2.PNG)
+![all text](docs/pratikum3/2.PNG)
 
 ## Tugas
 
 ### Row
 
-![all text](/docs/tugas/row.PNG)
+![all text](docs/tugas/row.PNG)
 
 ### Column
 
-![all text](/docs/tugas/column.PNG)
+![all text](docs/tugas/column.PNG)
 
 ### axis zize
 
-![all text](/docs/tugas/axisZize.PNG)
+![all text](docs/tugas/axisZize.PNG)
 
 ### Main Axis Zize
 
-![all text](/docs/tugas/axisAligment.PNG)
+![all text](docs/tugas/axisAligment.PNG)
 
 ### Cross Axis Aligment
 
-![all text](/docs/tugas/crosAxisAligment.PNG)
+![all text](docs/tugas/crosAxisAligment.PNG)
 
 ### Flexibel Widget
 
-![all text](/docs/tugas/fexibleWidget.PNG)
+![all text](docs/tugas/fexibleWidget.PNG)
 
 ### Expanded Widget
 
