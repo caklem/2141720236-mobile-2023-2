@@ -10,7 +10,7 @@ class MyFooter extends StatelessWidget {
       color: Colors.blueGrey[900],
       child: const Center(
         child: Text(
-          'Raden Rizki | 2141720064',
+          'M.Halim Perdana | 2141720236',
           style: TextStyle(
             color: Colors.white,
             fontSize: 18.0,
