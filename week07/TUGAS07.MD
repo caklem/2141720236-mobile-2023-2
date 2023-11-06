@@ -28,7 +28,7 @@ Pertama, identifikasi elemen yang lebih besar. Dalam contoh ini, empat elemen di
 
 Pertama, Anda akan membuat kolom bagian kiri pada judul. Tambahkan kode berikut di bagian atas metode build() di dalam kelas MyApp:
 
-![all text](/docs/pratikum1/2.PNG)
+![all text](docs/pratikum1/2.PNG)
 
 **/\* soal 1 \*/** Letakkan widget Column di dalam widget Expanded agar menyesuaikan ruang yang tersisa di dalam widget Row. Tambahkan properti crossAxisAlignment ke CrossAxisAlignment.start sehingga posisi kolom berada di awal baris.
 
