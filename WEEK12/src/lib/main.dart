@@ -109,18 +109,31 @@ class _FuturePageState extends State<FuturePage> {
       });
     });
 
-    // final futures = Future.wait([
-    //   returnOneAsync(),
-    //   returnTwoAsync(),
-    //   returnThreeAsync(),
-    // ]);
-
+    final futures = Future.wait([
+      returnOneAsync(),
+      returnTwoAsync(),
+      returnThreeAsync(),
+    ]);
+  }
     // pratikum 5
-    Future returnError() async {
-      await Future.delayed(const Duration(seconds: 2));
-      throw Exception('Something terrible happened!');
+    
+  Future returnError() async {
+    await Future.delayed(const Duration(seconds: 2));
+    throw Exception('Something terrible happened!');
+  }
+
+  Future handleError() async {
+    try {
+      await returnError();
+    } catch (e) {
+      setState(() {
+        result = e.toString();
+      });
+    } finally {
+      print('Complete');
     }
   }
+
 
   @override
   Widget build(BuildContext context) {
@@ -165,14 +178,13 @@ class _FuturePageState extends State<FuturePage> {
               // returnFG();
 
               // pratikum5
-              returnError()
-                .then((value){
+             returnError().then((value) {
                   setState(() {
-                    result = 'Succes';
+                    result = 'Success';
                   });
-                }).catchError((onError){
+                }).catchError((onError) {
                   setState(() {
-                     result = onError.toString();
+                    result = onError.toString();
                   });
                 }).whenComplete(() => print('Complete'));
             },
@@ -186,6 +198,4 @@ class _FuturePageState extends State<FuturePage> {
       ),
     );
   }
-  
-  returnError() {}
 }
