@@ -5,6 +5,9 @@ import 'package:http/http.dart';
 import 'dart:async';
 import 'package:http/http.dart' as http;
 import 'package:async/async.dart';
+import 'package:week12/geolocation.dart';
+import 'package:week12/navigation_dialog.dart';
+import 'package:week12/navigation_first.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,7 +24,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: const FuturePage(),
+      home: NavigationDialog(),
     );
   }
 }
@@ -161,32 +164,32 @@ class _FuturePageState extends State<FuturePage> {
               // count();
 
               // pratikum3
-              // getNumber().then((value) => {
-              //       setState(() {
-              //         result = value.toString();
-              //       })
-              //     });
-              // getNumber().then((value) {
-              //   setState(() {
-              //     result = value.toString();
-              //   });
-              // }).catchError((e) {
-              //   result = 'An error occurred';
-              // });
+              getNumber().then((value) => {
+                    setState(() {
+                      result = value.toString();
+                    })
+                  });
+              getNumber().then((value) {
+                setState(() {
+                  result = value.toString();
+                });
+              }).catchError((e) {
+                result = 'An error occurred';
+              });
 
               // pratikum 4
               // returnFG();
 
               // pratikum5
-             returnError().then((value) {
-                  setState(() {
-                    result = 'Success';
-                  });
-                }).catchError((onError) {
-                  setState(() {
-                    result = onError.toString();
-                  });
-                }).whenComplete(() => print('Complete'));
+            //  returnError().then((value) {
+            //       setState(() {
+            //         result = 'Success';
+            //       });
+            //     }).catchError((onError) {
+            //       setState(() {
+            //         result = onError.toString();
+            //       });
+            //     }).whenComplete(() => print('Complete'));
             },
           ),
           const Spacer(),
