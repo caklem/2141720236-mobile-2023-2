@@ -79,3 +79,27 @@ Tambahkan kode berikut ini.
 -   Apa maksud isi perintah kode tersebut? Jawab: Perintah kode tersebut membuat sebuah function Stream dimana setiap 1 detik sekali akan merubah warna sesuai dengan list warna yang sudah di deklarasikan.
 Lakukan commit hasil jawaban Soal 3 dengan pesan "W13: Jawaban Soal 3"
 
+### Langkah 7: Buka main.dart
+Ketik kode impor file ini pada file main.dart
+
+### Langkah 8: Tambah variabel
+Ketik dua properti ini di dalam class _StreamHomePageState
+
+### Langkah 9: Tambah method changeColor()
+Tetap di file main, Ketik kode seperti berikut
+
+### Langkah 10: Lakukan override initState()
+Ketika kode seperti berikut
+
+### Langkah 11: Ubah isi Scaffold()
+Sesuaikan kode seperti berikut.
+
+### Langkah 12: Run
+Lakukan running pada aplikasi Flutter Anda, maka akan terlihat berubah warna background setiap detik.
+
+### Soal 4
+Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+Lakukan commit hasil jawaban Soal 4 dengan pesan "W13: Jawaban Soal 4"
+![all text](docs/pratikum1/praktikum1_hasil.gif)
+
+
