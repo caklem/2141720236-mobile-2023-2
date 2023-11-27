@@ -1,0 +1,70 @@
+# 3. Praktikum 1: Dart Streams
+Selesaikan langkah-langkah praktikum berikut ini menggunakan editor Visual Studio Code (VS Code) atau Android Studio atau code editor lain kesukaan Anda. Jawablah di laporan praktikum Anda (ketik di README.md) pada setiap soal yang ada di beberapa langkah praktikum ini.
+### Langkah 1: Buat Project Baru
+Buatlah sebuah project flutter baru dengan nama stream_nama (beri nama panggilan Anda) di folder week-13/src/ repository GitHub Anda.
+
+### Langkah 2: Buka file main.dart
+Ketiklah kode seperti berikut ini.
+
+### Soal 1
+```dart
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Halim',
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        useMaterial3: true,
+      ),
+      home: const StreamHomePage(),
+    );
+  }
+}
+
+class StreamHomePage extends StatefulWidget {
+  const StreamHomePage({super.key});
+
+  @override
+  State<StreamHomePage> createState() => _MyHomePageState();
+}
+
+class _MyHomePageState extends State<StreamHomePage> {
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}
+```
+### Langkah 4: Tambah variabel colors
+Tambahkan variabel di dalam class ColorStream seperti berikut.
+```dart
+import 'package:flutter/material.dart';
+
+class ColorStream {
+  final List<Color> colors = [
+    Colors.blueGrey,
+    Colors.amber,
+    Colors.deepPurple,
+    Colors.lightBlue,
+    Colors.teal,
+    Colors.pink,
+    Colors.red,
+    Colors.orange,
+    Colors.green,
+    Colors.blue.shade900,
+  ];
+}
+```
+
+### Langkah 5: Tambah method getColors()
+Di dalam class ColorStream ketik method seperti kode berikut. Perhatikan tanda bintang di akhir keyword async* (ini digunakan untuk melakukan Stream data)
+
