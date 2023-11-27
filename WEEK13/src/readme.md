@@ -46,6 +46,8 @@ class _MyHomePageState extends State<StreamHomePage> {
 ```
 ### Langkah 4: Tambah variabel colors
 Tambahkan variabel di dalam class ColorStream seperti berikut.
+
+### Soal 2
 ```dart
 import 'package:flutter/material.dart';
 
@@ -67,4 +69,13 @@ class ColorStream {
 
 ### Langkah 5: Tambah method getColors()
 Di dalam class ColorStream ketik method seperti kode berikut. Perhatikan tanda bintang di akhir keyword async* (ini digunakan untuk melakukan Stream data)
+
+### Langkah 6: Tambah perintah yield*
+Tambahkan kode berikut ini.
+
+### Soal 3
+
+-  Jelaskan fungsi keyword yield* pada kode tersebut! Jawab: Sintaks yield* digunakan untuk mengembalikan data setiap ada perubahan. Hampir sama dengan sintaks return di Future, namun jika di Future data hanya dikembalikan 1x, di Stream data akan dikembalikan setiap ada perubahan.
+-   Apa maksud isi perintah kode tersebut? Jawab: Perintah kode tersebut membuat sebuah function Stream dimana setiap 1 detik sekali akan merubah warna sesuai dengan list warna yang sudah di deklarasikan.
+Lakukan commit hasil jawaban Soal 3 dengan pesan "W13: Jawaban Soal 3"
 
