@@ -109,3 +109,65 @@ Anda boleh comment atau hapus kode sebelumnya, lalu ketika kode seperti berikut.
 Jelaskan perbedaan menggunakan listen dan await for (langkah 9) ! Jawab: Listen digunakan untuk memberikan fungsi callback ketika ada perubahan pada stream. Sedangkan await for akan melakukan iterasi setiap nilai yang didapatkan dari stream.
 Lakukan commit hasil jawaban Soal 5 dengan pesan "W13: Jawaban Soal 5"
 
+### Praktikum 2: Stream controllers dan sinks
+StreamControllers akan membuat jembatan antara Stream dan Sink. Stream berisi data secara sekuensial yang dapat diterima oleh subscriber manapun, sedangkan Sink digunakan untuk mengisi (injeksi) data.
+
+Secara sederhana, StreamControllers merupakan stream management. Ia akan otomatis membuat stream dan sink serta beberapa method untuk melakukan kontrol terhadap event dan fitur-fitur yang ada di dalamnya.
+
+Anda dapat membayangkan stream sebagai pipa air yang mengalir searah, dari salah satu ujung Anda dapat mengisi data dan dari ujung lain data itu keluar. Anda dapat melihat konsep stream pada gambar diagram berikut ini.
+
+### Langkah 1: Buka file stream.dart
+Lakukan impor dengan mengetik kode ini.
+
+### Langkah 2: Tambah class NumberStream
+Tetap di file stream.dart tambah class baru seperti berikut.
+
+### Langkah 3: Tambah StreamController
+Di dalam class NumberStream buatlah variabel seperti berikut.
+
+### Langkah 4: Tambah method addNumberToSink
+Tetap di class NumberStream buatlah method ini
+
+
+
+### Langkah 5: Tambah method close()
+
+
+### Langkah 6: Buka main.dart
+Ketik kode import seperti berikut
+
+
+### Langkah 7: Tambah variabel
+Di dalam class _StreamHomePageState ketik variabel berikut
+
+
+### Langkah 8: Edit initState()
+
+
+### Langkah 9: Edit dispose()
+
+
+### Langkah 10: Tambah method addRandomNumber()
+void addRandomNumber() {
+  Random random = Random();
+  int myNum = random.nextInt(10);
+  numberStream.addNumberToSink(myNum);
+}
+### Langkah 11: Edit method build()
+
+
+### Langkah 12: Run
+Lakukan running pada aplikasi Flutter Anda, maka akan terlihat seperti gambar berikut.
+
+![all text](docs/pratikum2/mobile%20(1).gif)
+
+### Langkah 13: Buka stream.dart
+Tambahkan method berikut ini.
+
+### Langkah 14: Buka main.dart
+Tambahkan method onError di dalam class StreamHomePageState pada method listen di fungsi initState() seperti berikut ini.
+
+
+### Langkah 15: Edit method addRandomNumber()
+Lakukan comment pada dua baris kode berikut, lalu ketik kode seperti berikut ini.
+
