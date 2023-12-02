@@ -214,3 +214,20 @@ Lalu lakukan commit dengan pesan "W13: Jawaban Soal 10,11".
 - jawaban : bisa terjadi karena 1 Stream dilakukan listen dua kali pada subscription dan subscription2, sehingga angka akan terus bertambah sebanyak 2 kali.
 
 ![all text](docs/pratikum5/mobile%20(1).gif)
+
+### Soal 12
+Jelaskan maksud kode pada langkah 3 dan 7 !
+Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+Lalu lakukan commit dengan pesan "W13: Jawaban Soal 12".
+- jawaban :  Langkah 3 adalah melakukan yield random number kedalam stream setiap 1 detik. Langkah 7 melakukan listen pada numberStream pada tampilan, sehingga tampilan otomatis akan dirender ulang setiap ada data baru.
+
+![all text](docs/pratikum6/mobile%20(1).gif)
+
+### Soal 13
+Jelaskan maksud praktikum ini ! Dimanakah letak konsep pola BLoC-nya ?
+Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+Lalu lakukan commit dengan pesan "W13: Jawaban Soal 13".
+- jawaban :  pada praktikum ini dipisahkan ke file baru, sehingga kita dapat membedakan antara UI dengan Business Logic aplikasi.
+
+![all text](docs/pratikum7/mobile%20(2).gif)
+
