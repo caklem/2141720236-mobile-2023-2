@@ -199,3 +199,5 @@ Jelaskan maksud kode langkah 2, 6 dan 8 tersebut!
 Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
 Lalu lakukan commit dengan pesan "W13: Jawaban Soal 9".
 
+![all text](docs/pratikum4/mobile%20(1).gif)
+
