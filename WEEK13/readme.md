@@ -193,3 +193,9 @@ Lalu lakukan commit dengan pesan "W13: Jawaban Soal 8".
 - jawaban :  Langkah 1 - 3 menambahkan StreamTransformer. Fungsi dari StreamTransformer adalah untuk melakukan operasi khusus terhadap data yang melewati Stream. Terdapat state handleData untuk memodifikasi data yang memasuki Stream, handleError untuk menangani Stream yang menghasilkan error, dan handleDone untuk menangani ketika Stream ditutup.
 
 ![all text](docs/pratikum3/praktikum3_hasil.gif)
+
+### Soal 9
+Jelaskan maksud kode langkah 2, 6 dan 8 tersebut!
+Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+Lalu lakukan commit dengan pesan "W13: Jawaban Soal 9".
+
