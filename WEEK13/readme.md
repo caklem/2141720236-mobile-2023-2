@@ -199,5 +199,18 @@ Jelaskan maksud kode langkah 2, 6 dan 8 tersebut!
 Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
 Lalu lakukan commit dengan pesan "W13: Jawaban Soal 9".
 
+- jawaban : Langkah 2 melakukan subscription terhadap numberStream. Langkah 6 melakukan stop subscription terhadap sebuah stream, namun stream masih berjalan. Langkah 8 melakukan pengecekan apakah numberStream berhenti atau tidak, jika belum berhenti maka akan menambahkan random number, namun jika sudah berhenti maka akan mengembalikan nilai -1.
+
 ![all text](docs/pratikum4/mobile%20(1).gif)
 
+### Soal 10
+Jelaskan mengapa error itu bisa terjadi ?
+- jawaban : Error ini terjadi karena 2 subscription melakukan listen kepada Stream yang sama, dan stream belum di broadcast.
+
+### Soal 11
+Jelaskan mengapa hal itu bisa terjadi ?
+Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+Lalu lakukan commit dengan pesan "W13: Jawaban Soal 10,11".
+- jawaban : bisa terjadi karena 1 Stream dilakukan listen dua kali pada subscription dan subscription2, sehingga angka akan terus bertambah sebanyak 2 kali.
+
+![all text](docs/pratikum5/mobile%20(1).gif)
